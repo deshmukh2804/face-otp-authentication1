@@ -12,7 +12,7 @@ Built using <b>React, TypeScript, Firebase & AI Face Verification</b>.
 <h2 align="center">🌐 LIVE APPLICATION</h2>
 
 <h1 align="center">
-🚀 <a href="https://face-otp-authentication.vercel.app/#/signup" target="_blank">
+🚀 <a href="https://face-otp-authentication1.vercel.app/#/login" target="_blank">
 VERCEL – LIVE WEBSITE
 </a>
 </h1>
@@ -76,8 +76,8 @@ face-otp-authentication/
 <h3>1️⃣ Clone the Repository</h3>
 
 <pre>
-git clone https://github.com/your-username/face-otp-authentication.git
-cd face-otp-authentication
+git clone https://github.com/deshmukh2804/face-otp-authentication1.git
+cd face-otp-authentication1
 </pre>
 
 <h3>2️⃣ Install Dependencies</h3>
