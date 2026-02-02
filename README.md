@@ -54,23 +54,53 @@ Firebase Authentication and OTP services require valid API keys to work correctl
 
 <h2>📂 PROJECT STRUCTURE</h2>
 
+<p>
+The project follows a clean and modular folder structure using <b>React + TypeScript</b>.  
+Each folder is organized to maintain scalability, reusability, and readability.
+</p>
+
 <pre>
 face-otp-authentication/
-├── src/
-│   ├── components/          # Reusable UI components
-│   ├── pages/               # Signup, Login, OTP Verification pages
-│   ├── services/            # Firebase + Authentication services
-│   ├── App.tsx              # Main App Component
-│   └── main.tsx             # Entry Point
 │
-├── public/                  # Static assets
-├── package.json             # Dependencies & Scripts
-├── vite.config.ts           # Vite Configuration
-└── README.md                # Project Documentation
+├── src/  
+│   ├── components/          
+│   │   ├── Navbar.tsx        # Navigation bar UI component  
+│   │   ├── FaceScanner.tsx   # Face recognition camera component  
+│   │   ├── OTPInput.tsx      # OTP input & verification UI  
+│   │   └── Loader.tsx        # Loading animations and spinners  
+│   │
+│   ├── pages/               
+│   │   ├── Signup.tsx        # User registration page  
+│   │   ├── Login.tsx         # Login page with Face Authentication  
+│   │   ├── OTPVerify.tsx     # OTP verification page  
+│   │   └── Dashboard.tsx     # Secure dashboard after authentication  
+│   │
+│   ├── services/            
+│   │   ├── firebase.ts       # Firebase configuration & initialization  
+│   │   ├── otpService.ts     # OTP generation and validation logic  
+│   │   └── faceAuth.ts       # Face-api.js authentication service  
+│   │
+│   ├── App.tsx              
+│   │   # Main application routes and layout  
+│   │
+│   └── main.tsx             
+│       # React app entry point  
+│
+├── public/                  
+│   ├── models/              
+│   │   # Pre-trained AI face recognition models  
+│   ├── favicon.ico          # App favicon  
+│   └── index.html           # Base HTML template  
+│
+├── package.json             
+│   # Project dependencies and npm scripts  
+│
+├── vite.config.ts           
+│   # Vite build configuration  
+│
+└── README.md                
+    # Complete documentation of the project  
 </pre>
-
-<hr>
-
 <h2>⚙️ RUN LOCALLY</h2>
 
 <h3>1️⃣ Clone the Repository</h3>
@@ -160,7 +190,7 @@ dist/
 
 <hr>
 
-<h2 align="center">👨‍💻 AUTHOR & CONTACT</h2>
+<h2 align="center">🌍 CONNECT WITH ME</h2>
 
 <p align="center">
 <b>Bhavuk Deshmukh</b><br><br>
@@ -172,6 +202,12 @@ dist/
 💼 <b>LinkedIn:</b>  
 <a href="https://www.linkedin.com/in/bhavuk-deshmukh-189739257/" target="_blank">
 linkedin.com/in/bhavuk-deshmukh-189739257
+</a>
+<br><br>
+
+📸 <b>Instagram:</b>  
+<a href="https://www.instagram.com/bhavuk_2804?igsh=MTdvcHl1c2x3YTdndQ==" target="_blank">
+instagram.com/bhavuk_2804
 </a>
 <br><br>
 
